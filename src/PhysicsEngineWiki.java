@@ -121,9 +121,7 @@ public class PhysicsEngineWiki implements PhysicsEngine {
     normVec.sub(nodeA.mPosition, nodeB.mPosition);
     lensq = normVec.lengthSquared();
     /**
-     * If there is a Collision.  This is assuming a radius of zero.
-     * if (lensq == (radius1 + radius2)) is what to use if we have radius
-     * could use touches for files and edge_length for people?
+     * If there is a collision, which means the distance is zero
      */
     if (lensq == 0) {
       force.set((float) Math.random() * FORCE_CALCULATION_RANDOMIZER,
@@ -145,7 +143,6 @@ public class PhysicsEngineWiki implements PhysicsEngine {
    * @param node [in] Node the node to which the force apply
    * @param force [in] force a force Vector representing the force on a node
    *
-   * TODO: does force should be a property of the node (or not?)
    */
   private void applyForceToSpeed(code_swarm.Node node, Vector2f force) {
     float dlen;
@@ -199,9 +196,8 @@ public class PhysicsEngineWiki implements PhysicsEngine {
    *
    * @param edges the edges to which the force apply (both ends)
    *
-   * @return Returns a LinkedList of nodes which are still alive after the function call.
+   * @return Returns a LinkedList of edges which are still alive.
    *
-   * @Note Standard physics is "Position Variation = Speed x Duration" with a convention of "Duration=1" between to frames
    */
   public LinkedList<code_swarm.Edge> onRelaxEdges(LinkedList<code_swarm.Edge> edges) {
     for (code_swarm.Edge edge : edges) {
@@ -225,13 +221,12 @@ public class PhysicsEngineWiki implements PhysicsEngine {
   }
 
   /**
-   * Method that allows Physics Engine to modify Speed / Position during the relax phase.
+   * Modify Speed / Position during the relax phase.
    *
    * @param fNodes the nodes to which the force apply
    *
-   * @return Returns a LinkedList of nodes which are still alive after the function call.
+   * @return Returns a LinkedList of file nodes which are still alive.
    *
-   * @Note Standard physics is "Position Variation = Speed x Duration" with a convention of "Duration=1" between to frames
    */
   public LinkedList<code_swarm.FileNode> onRelaxNodes(LinkedList<code_swarm.FileNode> fNodes) {
     for (code_swarm.FileNode fNode : fNodes) {
@@ -253,13 +248,13 @@ public class PhysicsEngineWiki implements PhysicsEngine {
   }
 
   /**
-   * Method that allows Physics Engine to modify Speed / Position during the relax phase.
+   * Modify Speed / Position during the relax phase.
    *
    * @param pNodes the nodes to which the force apply
    *
-   * @return Returns a LinkedList of nodes which are still alive after the function call.
+   * @return Returns a LinkedList of person nodes which are still alive.
    *
-   * @Note Standard physics is "Position Variation = Speed x Duration" with a convention of "Duration=1" between to frames
+   * @Note Position Change = Speed x Time, Time=1 usually
    */
   public LinkedList<code_swarm.PersonNode> onRelaxPeople(LinkedList<code_swarm.PersonNode> pNodes) {
     for (code_swarm.PersonNode pNode : pNodes) {
@@ -274,23 +269,21 @@ public class PhysicsEngineWiki implements PhysicsEngine {
           forceSummation.add(forceBetweenPersons);
         }
       }
-      // Apply repulsive force from other persons to this Node
+      // Apply repulsive force from other people to this Node
       applyForceToSpeed(pNode, forceSummation);
 
-      // Don't know why, but the prototype had this.
       pNode.mSpeed.scale(1.0f / 12);
     }
     return pNodes;
   }
 
   /**
-   * Method that allows Physics Engine to modify Speed / Position during the update phase.
+   * Modify alive elements during the update phase.
    *
    * @param edges the nodes to which the force apply
    *
-   * @return Returns a LinkedList of nodes which are still alive after the function call.
+   * @return Returns a LinkedList of edges which are still alive.
    *
-   * @Note Standard physics is "Position Variation = Speed x Duration" with a convention of "Duration=1" between to frames
    */
   public LinkedList<code_swarm.Edge> onUpdateEdges(LinkedList<code_swarm.Edge> edges) {
     LinkedList<code_swarm.Edge> stillLiving = new LinkedList<code_swarm.Edge>();
@@ -305,13 +298,12 @@ public class PhysicsEngineWiki implements PhysicsEngine {
   }
 
   /**
-   * Method that allows Physics Engine to modify Speed / Position during the update phase.
+   * Modify alive elements during the update phase.
    *
-   * @param fNodes the nodes to which the force apply
+   * @param fNodes the file nodes to which the force apply
    *
-   * @return Returns a LinkedList of nodes which are still alive after the function call.
+   * @return Returns a LinkedList of nodes which are still alive.
    *
-   * @Note Standard physics is "Position Variation = Speed x Duration" with a convention of "Duration=1" between to frames
    */
   public LinkedList<code_swarm.FileNode> onUpdateNodes(LinkedList<code_swarm.FileNode> fNodes) {
     LinkedList<code_swarm.FileNode> stillLiving = new LinkedList<code_swarm.FileNode>();
@@ -333,13 +325,12 @@ public class PhysicsEngineWiki implements PhysicsEngine {
   }
 
   /**
-   * Method that allows Physics Engine to modify Speed / Position during the update phase.
+   * Modify alive elements during the update phase.
    *
-   * @param pNodes the nodes to which the force apply
+   * @param pNodes the person nodes to which the force apply
    *
    * @return Returns a LinkedList of nodes which are still alive after the function call.
    *
-   * @Note Standard physics is "Position Variation = Speed x Duration" with a convention of "Duration=1" between to frames
    */
   public LinkedList<code_swarm.PersonNode> onUpdatePeople(
       LinkedList<code_swarm.PersonNode> pNodes) {

@@ -102,6 +102,7 @@ public class code_swarm extends PApplet {
   boolean showHistogram = true;
   boolean showActivity = false;
   boolean showDate = true;
+  boolean showText = true;
   boolean showLegend = false;
   boolean showPopular = false;
   boolean showEdges = false;
@@ -531,6 +532,10 @@ public class code_swarm extends PApplet {
       drawDate();
     }
 
+    if (showText) {
+      drawText();
+    }
+
     if (takeSnapshots) {
       dumpFrame();
     }
@@ -604,6 +609,18 @@ public class code_swarm extends PApplet {
     if (coolDown)
       dateText = "End of history: " + dateText;
     text(dateText, width - 1 - 10, height - textDescent() - 10);
+  }
+
+  public void drawText() {
+    fill(255);
+    String text = "Test text!";
+    textFont(infoFont);
+    textAlign(RIGHT, BASELINE);
+    textSize(infoFont.size);
+    if (coolDown) {
+      text = text + "1";
+    }
+    text(text, width - 1 - 20, height - 2 * textDescent() - 20);
   }
 
   /**
@@ -879,9 +896,10 @@ public class code_swarm extends PApplet {
       }
       p.addColor(n.nodeHue);
 
+      int edgeWeight = currentEvent.weight;
       Edge ped = findEdge(n, p);
       if (ped == null) {
-        ped = new Edge(n, p);
+        ped = new Edge(n, p, edgeWeight);
         edges.put(new Pair<FileNode,PersonNode>(n,p), ped);
         livingEdges.addLast(ped);
       } else {
@@ -1362,16 +1380,18 @@ public class code_swarm extends PApplet {
     protected FileNode nodeFrom;
     protected PersonNode nodeTo;
     protected float len;
+    protected int weight;
 
     /**
      * 1) constructor.
      * @param from FileNode
      * @param to PersonNode
      */
-    Edge(FileNode from, PersonNode to) {
+    Edge(FileNode from, PersonNode to, int weight) {
       super(EDGE_LIFE_INIT, EDGE_LIFE_DECREMENT);
       this.nodeFrom = from;
       this.nodeTo   = to;
+      this.weight   = weight;
       this.len      = EDGE_LEN;  // 25
     }
 

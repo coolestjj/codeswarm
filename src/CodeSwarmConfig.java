@@ -97,6 +97,8 @@ public class CodeSwarmConfig
   public static final String SHOW_LEGEND = "ShowLegend";
   /** Boolean value, controls showing the Histogram */
   public static final String SHOW_HISTORY = "ShowHistory";
+  /** Boolean value, controls showing the Wiki total words */
+  public static final String SHOW_WIKI_ACTIVITY = "ShowWikiActivity";
   /** Boolean value, controls showing the Actvitiy */
   public static final String SHOW_ACTIVITY = "ShowActivity";
   /** Boolean value, controls showing the Date */

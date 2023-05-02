@@ -4,7 +4,7 @@ REM need the config file as first parameter
 
 REM TODO : take care of multiple parameters
 SET params="%1"
-set default_config="data/sample.config"
+set default_config="data/wiki.config"
 
 REM basic command line parameters check
 IF %params%=="" (

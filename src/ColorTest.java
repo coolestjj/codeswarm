@@ -18,6 +18,7 @@
  */
 
 import java.awt.Color;
+import java.util.Scanner;
 import java.util.regex.*;
 import processing.core.PApplet;
 import processing.core.PConstants;
@@ -75,9 +76,11 @@ class ColorTest
 	public static void main( String [] args )
 	{
 		ColorTest ct = new ColorTest();
-		System.out.println( "input=" + args[0] );
-		ct.loadProperty( args[0] );
-		//System.out.println( "regex=" + ct.expr );
+		Scanner input = new Scanner( System.in );
+		String str = input.nextLine();
+		System.out.println( "input=" + str );
+		ct.loadProperty( str );
+		System.out.println( "regex=" + ct.expr );
 		System.out.println( "color1=" + Integer.toHexString(ct.c1) );
 		System.out.println( "color2=" + Integer.toHexString(ct.c2) );
 	}

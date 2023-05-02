@@ -21,8 +21,7 @@
 import java.awt.Color;
 import java.util.*;
 
-class ColorAssigner
-{
+class ColorAssigner {
 	ArrayList<ColorTest> tests;
 	//int defaultColor = PApplet.color(128, 128, 128);
 	int defaultColor = Color.gray.getRGB();

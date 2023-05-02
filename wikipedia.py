@@ -22,7 +22,7 @@ def page_history(page, offset=''):
     snooze()
     print(url)
 
-    url = f'https://asoiaf.huijiwiki.com/api.php?action=query&prop=revisions&titles=%E8%89%BE%E5%BE%B7%C2%B7%E5%8F%B2%E5%A1%94%E5%85%8B&rvprop=timestamp|user|size&rvlimit=500&format=xml'
+#     url = f'https://asoiaf.huijiwiki.com/api.php?action=query&prop=revisions&titles=%E8%89%BE%E5%BE%B7%C2%B7%E5%8F%B2%E5%A1%94%E5%85%8B&rvprop=timestamp|user|size&rvlimit=500&format=xml'
     time.sleep(0.5)  # easy
     agent = requests.Session()
     agent.headers.update({'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'})
@@ -33,7 +33,7 @@ def page_history(page, offset=''):
             'filename': page,
             'date': int(time.mktime(time.strptime(rev.attrib['timestamp'], '%Y-%m-%dT%H:%M:%SZ'))) * 1000,
             'author': rev.attrib['user'],
-            'weight': max(int(int(rev.attrib['size']) / 100) + 1, 1)
+            'weight': int(rev.attrib['size'])
         }
         for rev in doc.iter('rev')
     ]
@@ -97,6 +97,8 @@ revisions.sort(key=lambda r: r['date'])
 #         file.write(f'<event filename="{rev["filename"]}" date="{rev["date"]}" author="{rev["author"]}" weight="{rev["weight"]}" /></event>')
 #     file.write('</file_events>')
 root = ET.Element("file_events")
+for i in range(len(revisions) - 1, 0, -1):
+    revisions[i]["weight"] -= revisions[i - 1]["weight"]
 for rev in revisions:
     event = ET.SubElement(root, "event")
     event.set("filename", rev["filename"])
@@ -104,5 +106,5 @@ for rev in revisions:
     event.set("author", rev["author"])
     event.set("weight", str(rev["weight"]))
 tree = ET.ElementTree(root)
-tree.write("revisions.xml", encoding="utf-8", xml_declaration=True)
+tree.write("result.xml", encoding="utf-8", xml_declaration=True)
 sys.exit(0)

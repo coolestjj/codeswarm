@@ -1,107 +1,521 @@
 <?xml version='1.0' encoding='utf-8'?>
 <file_events>
-  <event filename="WikiTitle" date="1328390122000" author="AemonTargaryen" weight="91"/>
-  <event filename="WikiTitle" date="1328467819000" author="AemonTargaryen" weight="90"/>
-  <event filename="WikiTitle" date="1328651705000" author="卡拉马佐夫" weight="88"/>
-  <event filename="WikiTitle" date="1328730890000" author="AemonTargaryen" weight="88"/>
-  <event filename="WikiTitle" date="1328811997000" author="Feketerigo" weight="87"/>
-  <event filename="WikiTitle" date="1328900069000" author="Wasami007" weight="87"/>
-  <event filename="WikiTitle" date="1328901702000" author="Wasami007" weight="90"/>
-  <event filename="WikiTitle" date="1328902312000" author="Wasami007" weight="90"/>
-  <event filename="WikiTitle" date="1329018542000" author="黑死神贝勒里恩" weight="91"/>
-  <event filename="WikiTitle" date="1329038703000" author="Arya·Stark" weight="91"/>
-  <event filename="WikiTitle" date="1329038838000" author="Arya·Stark" weight="91"/>
-  <event filename="WikiTitle" date="1329077796000" author="Rubilacxe" weight="91"/>
-  <event filename="WikiTitle" date="1329096528000" author="黑死神贝勒里恩" weight="91"/>
-  <event filename="WikiTitle" date="1329438587000" author="Rubilacxe" weight="91"/>
-  <event filename="WikiTitle" date="1329439863000" author="Rubilacxe" weight="91"/>
-  <event filename="WikiTitle" date="1329550678000" author="AemonTargaryen" weight="91"/>
-  <event filename="WikiTitle" date="1329550951000" author="AemonTargaryen" weight="91"/>
-  <event filename="WikiTitle" date="1329610635000" author="Rubilacxe" weight="91"/>
-  <event filename="WikiTitle" date="1329611311000" author="Rubilacxe" weight="91"/>
-  <event filename="WikiTitle" date="1329611470000" author="Rubilacxe" weight="91"/>
-  <event filename="WikiTitle" date="1329611595000" author="Rubilacxe" weight="92"/>
-  <event filename="WikiTitle" date="1329611702000" author="Rubilacxe" weight="92"/>
-  <event filename="WikiTitle" date="1329684642000" author="黑死神贝勒里恩" weight="92"/>
-  <event filename="WikiTitle" date="1329770104000" author="泰温公爵" weight="92"/>
-  <event filename="WikiTitle" date="1329950091000" author="AemonTargaryen" weight="91"/>
-  <event filename="WikiTitle" date="1329984444000" author="黑死神贝勒里恩" weight="91"/>
-  <event filename="WikiTitle" date="1330017741000" author="黑死神贝勒里恩" weight="91"/>
-  <event filename="WikiTitle" date="1330218274000" author="KING TOMMEN" weight="93"/>
-  <event filename="WikiTitle" date="1330218468000" author="KING TOMMEN" weight="92"/>
-  <event filename="WikiTitle" date="1330219287000" author="KING TOMMEN" weight="92"/>
-  <event filename="WikiTitle" date="1331355766000" author="Reasno" weight="95"/>
-  <event filename="WikiTitle" date="1338099733000" author="Reasno" weight="124"/>
-  <event filename="WikiTitle" date="1340658054000" author="Reasno" weight="124"/>
-  <event filename="WikiTitle" date="1359063639000" author="Arya·Stark" weight="124"/>
-  <event filename="WikiTitle" date="1359839386000" author="卢斯 波顿" weight="125"/>
-  <event filename="WikiTitle" date="1362473322000" author="Reasno" weight="125"/>
-  <event filename="WikiTitle" date="1362473781000" author="Reasno" weight="125"/>
-  <event filename="WikiTitle" date="1368409085000" author="59.124.57.2" weight="125"/>
-  <event filename="WikiTitle" date="1371010783000" author="Wasami007" weight="125"/>
-  <event filename="WikiTitle" date="1384507870000" author="AlmightyLorna" weight="125"/>
-  <event filename="WikiTitle" date="1384507905000" author="AlmightyLorna" weight="125"/>
-  <event filename="WikiTitle" date="1384508190000" author="AlmightyLorna" weight="125"/>
-  <event filename="WikiTitle" date="1393785590000" author="卢斯 波顿" weight="126"/>
-  <event filename="WikiTitle" date="1405801442000" author="AemonTargaryen" weight="126"/>
-  <event filename="WikiTitle" date="1406072716000" author="AemonTargaryen" weight="126"/>
-  <event filename="WikiTitle" date="1406596919000" author="黑死神贝勒里恩" weight="127"/>
-  <event filename="WikiTitle" date="1406606294000" author="黑死神贝勒里恩" weight="127"/>
-  <event filename="WikiTitle" date="1407137353000" author="Reasno" weight="128"/>
-  <event filename="WikiTitle" date="1407138661000" author="Reasno" weight="127"/>
-  <event filename="WikiTitle" date="1411631004000" author="Longqiaojushi" weight="127"/>
-  <event filename="WikiTitle" date="1411631147000" author="Longqiaojushi" weight="128"/>
-  <event filename="WikiTitle" date="1411674524000" author="AemonTargaryen" weight="127"/>
-  <event filename="WikiTitle" date="1418488070000" author="106.37.8.177" weight="126"/>
-  <event filename="WikiTitle" date="1419281156000" author="Reasno" weight="129"/>
-  <event filename="WikiTitle" date="1419282646000" author="Reasno" weight="129"/>
-  <event filename="WikiTitle" date="1419389607000" author="黑死神贝勒里恩" weight="129"/>
-  <event filename="WikiTitle" date="1419389785000" author="Reasno" weight="129"/>
-  <event filename="WikiTitle" date="1419839704000" author="黑死神贝勒里恩" weight="128"/>
-  <event filename="WikiTitle" date="1419928447000" author="AemonTargaryen" weight="130"/>
-  <event filename="WikiTitle" date="1423875556000" author="119.52.34.104" weight="3"/>
-  <event filename="WikiTitle" date="1423875700000" author="119.52.34.104" weight="3"/>
-  <event filename="WikiTitle" date="1431035126000" author="SerGawen" weight="130"/>
-  <event filename="WikiTitle" date="1431072726000" author="Reasno" weight="130"/>
-  <event filename="WikiTitle" date="1431300242000" author="Reasno" weight="130"/>
-  <event filename="WikiTitle" date="1438898908000" author="北落师门" weight="130"/>
-  <event filename="WikiTitle" date="1438900012000" author="北落师门" weight="131"/>
-  <event filename="WikiTitle" date="1438900075000" author="北落师门" weight="131"/>
-  <event filename="WikiTitle" date="1440239688000" author="SerGawen" weight="131"/>
-  <event filename="WikiTitle" date="1443123716000" author="SerGawen" weight="131"/>
-  <event filename="WikiTitle" date="1443123787000" author="SerGawen" weight="131"/>
-  <event filename="WikiTitle" date="1443123930000" author="SerGawen" weight="131"/>
-  <event filename="WikiTitle" date="1443123974000" author="SerGawen" weight="131"/>
-  <event filename="WikiTitle" date="1445712980000" author="AemonTargaryen" weight="132"/>
-  <event filename="WikiTitle" date="1445713184000" author="AemonTargaryen" weight="131"/>
-  <event filename="WikiTitle" date="1454399953000" author="SerGawen" weight="131"/>
-  <event filename="WikiTitle" date="1464625588000" author="SerGawen" weight="132"/>
-  <event filename="WikiTitle" date="1464625804000" author="SerGawen" weight="132"/>
-  <event filename="WikiTitle" date="1465249662000" author="Yiyi" weight="133"/>
-  <event filename="WikiTitle" date="1467079376000" author="梦火" weight="133"/>
-  <event filename="WikiTitle" date="1467250380000" author="SerGawen" weight="133"/>
-  <event filename="WikiTitle" date="1467316108000" author="SerGawen" weight="135"/>
-  <event filename="WikiTitle" date="1468817534000" author="小猴会聪明" weight="172"/>
-  <event filename="WikiTitle" date="1468817682000" author="小猴会聪明" weight="273"/>
-  <event filename="WikiTitle" date="1469750963000" author="SerGawen" weight="274"/>
-  <event filename="WikiTitle" date="1470343854000" author="Kikigogo" weight="275"/>
-  <event filename="WikiTitle" date="1471980262000" author="Aufallinger" weight="273"/>
-  <event filename="WikiTitle" date="1471980941000" author="Aufallinger" weight="272"/>
-  <event filename="WikiTitle" date="1476843405000" author="北落师门" weight="272"/>
-  <event filename="WikiTitle" date="1476843455000" author="北落师门" weight="272"/>
-  <event filename="WikiTitle" date="1490554277000" author="SerGawen" weight="269"/>
-  <event filename="WikiTitle" date="1490554295000" author="SerGawen" weight="269"/>
-  <event filename="WikiTitle" date="1490554313000" author="SerGawen" weight="269"/>
-  <event filename="WikiTitle" date="1510479628000" author="夏洛特之夢" weight="271"/>
-  <event filename="WikiTitle" date="1512429224000" author="北落师门" weight="272"/>
-  <event filename="WikiTitle" date="1512429290000" author="北落师门" weight="272"/>
-  <event filename="WikiTitle" date="1512429428000" author="北落师门" weight="272"/>
-  <event filename="WikiTitle" date="1512429507000" author="北落师门" weight="272"/>
-  <event filename="WikiTitle" date="1560919655000" author="SerGawen" weight="272"/>
-  <event filename="WikiTitle" date="1565463915000" author="Namasikanam" weight="270"/>
-  <event filename="WikiTitle" date="1585508203000" author="Dhpike" weight="271"/>
-  <event filename="WikiTitle" date="1598568390000" author="北落师门" weight="271"/>
-  <event filename="WikiTitle" date="1667433031000" author="兜帽王莫甘•班佛特" weight="272"/>
-  <event filename="WikiTitle" date="1676854369000" author="Elros Y" weight="281"/>
-  <event filename="WikiTitle" date="1678239315000" author="Iococo" weight="281"/>
+  <event filename="Barack Obama" date="1646442381000" author="Mahusha" weight="3477"/>
+  <event filename="Barack Obama" date="1646442780000" author="Mahusha" weight="3477"/>
+  <event filename="Barack Obama" date="1646443455000" author="Mahusha" weight="3477"/>
+  <event filename="Barack Obama" date="1646584753000" author="TheBY" weight="3482"/>
+  <event filename="Barack Obama" date="1646604867000" author="KevinNov3" weight="3482"/>
+  <event filename="Barack Obama" date="1646620916000" author="AwfulReader" weight="3470"/>
+  <event filename="Barack Obama" date="1646621848000" author="AwfulReader" weight="3482"/>
+  <event filename="Barack Obama" date="1646766488000" author="KevinNov3" weight="3482"/>
+  <event filename="Barack Obama" date="1647108810000" author="GoingBatty" weight="3484"/>
+  <event filename="Barack Obama" date="1647111267000" author="Rlink2" weight="3561"/>
+  <event filename="Barack Obama" date="1647182840000" author="Yeungkahchun" weight="3565"/>
+  <event filename="Barack Obama" date="1647243416000" author="Isi96" weight="3565"/>
+  <event filename="Barack Obama" date="1647280060000" author="Lettler" weight="3564"/>
+  <event filename="Barack Obama" date="1647356869000" author="DaSupremo" weight="3564"/>
+  <event filename="Barack Obama" date="1647393912000" author="WatkynBassett" weight="3564"/>
+  <event filename="Barack Obama" date="1647481678000" author="KevinNov3" weight="3565"/>
+  <event filename="Barack Obama" date="1647613010000" author="Iamreallygoodatcheckers"
+    weight="3570"/>
+  <event filename="Barack Obama" date="1647613608000" author="Iamreallygoodatcheckers"
+    weight="3579"/>
+  <event filename="Barack Obama" date="1647613847000" author="Muboshgu" weight="3570"/>
+  <event filename="Barack Obama" date="1647613897000" author="Iamreallygoodatcheckers"
+    weight="3567"/>
+  <event filename="Barack Obama" date="1647613978000" author="Iamreallygoodatcheckers"
+    weight="3567"/>
+  <event filename="Barack Obama" date="1647614446000" author="Iamreallygoodatcheckers"
+    weight="3576"/>
+  <event filename="Barack Obama" date="1647615450000" author="Thenightaway" weight="3567"/>
+  <event filename="Barack Obama" date="1647643894000" author="Anotheroneuser" weight="3567"/>
+  <event filename="Barack Obama" date="1647661928000" author="TribeHasSpoken" weight="3569"/>
+  <event filename="Barack Obama" date="1647713250000" author="Dannysamson999" weight="3569"/>
+  <event filename="Barack Obama" date="1647768826000" author="TribeHasSpoken" weight="3569"/>
+  <event filename="Barack Obama" date="1647852542000" author="Crazy Jay Fox" weight="3569"/>
+  <event filename="Barack Obama" date="1647854024000" author="TribeHasSpoken" weight="3569"/>
+  <event filename="Barack Obama" date="1648091978000" author="TribeHasSpoken" weight="3569"/>
+  <event filename="Barack Obama" date="1648137581000" author="Politicsfan4" weight="3569"/>
+  <event filename="Barack Obama" date="1648137611000" author="Politicsfan4" weight="3568"/>
+  <event filename="Barack Obama" date="1648188303000" author="Qwertyasdf0192363" weight="3568"/>
+  <event filename="Barack Obama" date="1648287159000" author="Space4Time3Continuum2x"
+    weight="3568"/>
+  <event filename="Barack Obama" date="1648287548000" author="Yeungkahchun" weight="3572"/>
+  <event filename="Barack Obama" date="1648287687000" author="Muboshgu" weight="3568"/>
+  <event filename="Barack Obama" date="1648288004000" author="Space4Time3Continuum2x"
+    weight="3568"/>
+  <event filename="Barack Obama" date="1648288425000" author="Space4Time3Continuum2x"
+    weight="3568"/>
+  <event filename="Barack Obama" date="1648306792000" author="Keith D" weight="3568"/>
+  <event filename="Barack Obama" date="1648444389000" author="Roccerbot" weight="3568"/>
+  <event filename="Barack Obama" date="1648693373000" author="Davefelmer" weight="3568"/>
+  <event filename="Barack Obama" date="1648841861000" author="Rossenbaum" weight="3605"/>
+  <event filename="Barack Obama" date="1649028915000" author="Rossenbaum" weight="3605"/>
+  <event filename="Barack Obama" date="1649043820000" author="ValarianB" weight="3568"/>
+  <event filename="Barack Obama" date="1649136526000" author="RoMiqaelwashere69420" weight="3568"/>
+  <event filename="Barack Obama" date="1649138344000" author="Drdpw" weight="3568"/>
+  <event filename="Barack Obama" date="1649232516000" author="RookieInTheWiki" weight="3579"/>
+  <event filename="Barack Obama" date="1649242987000" author="Gråbergs Gråa Sång" weight="3579"/>
+  <event filename="Barack Obama" date="1649243210000" author="Gråbergs Gråa Sång" weight="3579"/>
+  <event filename="Barack Obama" date="1649256437000" author="Awesomesauce16" weight="3579"/>
+  <event filename="Barack Obama" date="1649256783000" author="Awesomesauce16" weight="3579"/>
+  <event filename="Barack Obama" date="1649304075000" author="Citation bot" weight="3579"/>
+  <event filename="Barack Obama" date="1649479074000" author="ZackTheDestroyer" weight="3579"/>
+  <event filename="Barack Obama" date="1649479993000" author="ZackTheDestroyer" weight="3579"/>
+  <event filename="Barack Obama" date="1649480033000" author="ZackTheDestroyer" weight="3579"/>
+  <event filename="Barack Obama" date="1649480119000" author="Favonian" weight="3579"/>
+  <event filename="Barack Obama" date="1649494371000" author="The One I Left" weight="3579"/>
+  <event filename="Barack Obama" date="1649503366000" author="Thrakkx" weight="3579"/>
+  <event filename="Barack Obama" date="1649539994000" author="BlueShirtz" weight="3579"/>
+  <event filename="Barack Obama" date="1649673342000" author="SomeBodyAnyBody05" weight="3579"/>
+  <event filename="Barack Obama" date="1649711578000" author="Iamreallygoodatcheckers"
+    weight="3580"/>
+  <event filename="Barack Obama" date="1649760921000" author="Interstellarity" weight="3578"/>
+  <event filename="Barack Obama" date="1650098259000" author="Jjsgood35" weight="3579"/>
+  <event filename="Barack Obama" date="1650098623000" author="Praxidicae" weight="3578"/>
+  <event filename="Barack Obama" date="1650185363000" author="Space4Time3Continuum2x"
+    weight="3574"/>
+  <event filename="Barack Obama" date="1650221283000" author="LoniKen" weight="3574"/>
+  <event filename="Barack Obama" date="1650701305000" author="Gaitinjammerkid" weight="3574"/>
+  <event filename="Barack Obama" date="1650701456000" author="Praxidicae" weight="3574"/>
+  <event filename="Barack Obama" date="1651084034000" author="Politicsfan4" weight="3574"/>
+  <event filename="Barack Obama" date="1651087730000" author="Iamreallygoodatcheckers"
+    weight="3574"/>
+  <event filename="Barack Obama" date="1651219203000" author="Mrbeastmodeallday" weight="3575"/>
+  <event filename="Barack Obama" date="1651219337000" author="Mrbeastmodeallday" weight="3575"/>
+  <event filename="Barack Obama" date="1651225765000" author="GuardianH" weight="3575"/>
+  <event filename="Barack Obama" date="1651343996000" author="Aocloyalist" weight="3575"/>
+  <event filename="Barack Obama" date="1651678815000" author="Politicsfan4" weight="3575"/>
+  <event filename="Barack Obama" date="1651886516000" author="GenAv" weight="3575"/>
+  <event filename="Barack Obama" date="1652063514000" author="Space4Time3Continuum2x"
+    weight="3575"/>
+  <event filename="Barack Obama" date="1652064182000" author="Space4Time3Continuum2x"
+    weight="3575"/>
+  <event filename="Barack Obama" date="1652384497000" author="Davefelmer" weight="3575"/>
+  <event filename="Barack Obama" date="1652444825000" author="Cerebral726" weight="3575"/>
+  <event filename="Barack Obama" date="1652513046000" author="Shoshie8" weight="3576"/>
+  <event filename="Barack Obama" date="1652556697000" author="Iamreallygoodatcheckers"
+    weight="3576"/>
+  <event filename="Barack Obama" date="1652679100000" author="Aaron106" weight="3576"/>
+  <event filename="Barack Obama" date="1652679259000" author="Aaron106" weight="3576"/>
+  <event filename="Barack Obama" date="1652806563000" author="Ortizesp" weight="3576"/>
+  <event filename="Barack Obama" date="1652859976000" author="Novemberjazz" weight="3575"/>
+  <event filename="Barack Obama" date="1652935744000" author="SamWilson989" weight="3576"/>
+  <event filename="Barack Obama" date="1653351694000" author="Byzant123" weight="3584"/>
+  <event filename="Barack Obama" date="1653353132000" author="Byzant123" weight="3584"/>
+  <event filename="Barack Obama" date="1653548580000" author="Isi96" weight="3587"/>
+  <event filename="Barack Obama" date="1653554729000" author="ValarianB" weight="3587"/>
+  <event filename="Barack Obama" date="1653679211000" author="WikiCleanerBot" weight="3587"/>
+  <event filename="Barack Obama" date="1653843339000" author="DROSE78" weight="3586"/>
+  <event filename="Barack Obama" date="1653861462000" author="Jasonkwe" weight="3594"/>
+  <event filename="Barack Obama" date="1653989134000" author="Snickers2686" weight="3594"/>
+  <event filename="Barack Obama" date="1653989461000" author="Snickers2686" weight="3594"/>
+  <event filename="Barack Obama" date="1654156869000" author="Gregcar195467" weight="3594"/>
+  <event filename="Barack Obama" date="1654156899000" author="Smasongarrison" weight="3593"/>
+  <event filename="Barack Obama" date="1654157041000" author="SamWilson989" weight="3593"/>
+  <event filename="Barack Obama" date="1654445892000" author="Citation bot" weight="3593"/>
+  <event filename="Barack Obama" date="1654467397000" author="GiantSnowman" weight="3597"/>
+  <event filename="Barack Obama" date="1654513576000" author="Casint" weight="3597"/>
+  <event filename="Barack Obama" date="1654513613000" author="Praxidicae" weight="3597"/>
+  <event filename="Barack Obama" date="1654797526000" author="GreenC bot" weight="3597"/>
+  <event filename="Barack Obama" date="1654847539000" author="Thrakkx" weight="3597"/>
+  <event filename="Barack Obama" date="1655196712000" author="Ed g2s" weight="3597"/>
+  <event filename="Barack Obama" date="1655377875000" author="Kyleung05" weight="3598"/>
+  <event filename="Barack Obama" date="1655378216000" author="Praxidicae" weight="3597"/>
+  <event filename="Barack Obama" date="1655383080000" author="InternetArchiveBot" weight="3601"/>
+  <event filename="Barack Obama" date="1655395681000" author="BD2412" weight="3601"/>
+  <event filename="Barack Obama" date="1655533052000" author="Lol1VNIO" weight="3600"/>
+  <event filename="Barack Obama" date="1655889330000" author="CroissantAvenue" weight="3610"/>
+  <event filename="Barack Obama" date="1655890719000" author="C.J. Griffin" weight="3610"/>
+  <event filename="Barack Obama" date="1655896840000" author="Woko Sapien" weight="3610"/>
+  <event filename="Barack Obama" date="1655991364000" author="Handoto" weight="3610"/>
+  <event filename="Barack Obama" date="1656169796000" author="WikiCleanerMan" weight="3610"/>
+  <event filename="Barack Obama" date="1656257508000" author="X-Editor" weight="3622"/>
+  <event filename="Barack Obama" date="1656346753000" author="Citation bot" weight="3622"/>
+  <event filename="Barack Obama" date="1656362986000" author="Benjamin3$hunna" weight="3622"/>
+  <event filename="Barack Obama" date="1656364323000" author="EvergreenFir" weight="3622"/>
+  <event filename="Barack Obama" date="1656558829000" author="Kyleung05" weight="3622"/>
+  <event filename="Barack Obama" date="1656561664000" author="Drdpw" weight="3622"/>
+  <event filename="Barack Obama" date="1656763331000" author="Popcornfud" weight="3621"/>
+  <event filename="Barack Obama" date="1656872991000" author="BattyBot" weight="3621"/>
+  <event filename="Barack Obama" date="1656890826000" author="CommonsDelinker" weight="3619"/>
+  <event filename="Barack Obama" date="1657113208000" author="Kyleung05" weight="3621"/>
+  <event filename="Barack Obama" date="1657115574000" author="Bruce1ee" weight="3620"/>
+  <event filename="Barack Obama" date="1657122843000" author="Kyleung05" weight="3620"/>
+  <event filename="Barack Obama" date="1657189411000" author="Kyleung05" weight="3621"/>
+  <event filename="Barack Obama" date="1657189448000" author="Kyleung05" weight="3621"/>
+  <event filename="Barack Obama" date="1657254475000" author="Kyleung05" weight="3623"/>
+  <event filename="Barack Obama" date="1657254594000" author="Kyleung05" weight="3623"/>
+  <event filename="Barack Obama" date="1657254845000" author="Kyleung05" weight="3623"/>
+  <event filename="Barack Obama" date="1657254939000" author="Kyleung05" weight="3623"/>
+  <event filename="Barack Obama" date="1657376948000" author="ElijahPepe" weight="3623"/>
+  <event filename="Barack Obama" date="1657410779000" author="Timmy2512" weight="3623"/>
+  <event filename="Barack Obama" date="1657604337000" author="JJMC89 bot III" weight="3623"/>
+  <event filename="Barack Obama" date="1657615127000" author="Anita Aristide" weight="3623"/>
+  <event filename="Barack Obama" date="1657615213000" author="Anita Aristide" weight="3623"/>
+  <event filename="Barack Obama" date="1657615298000" author="Anita Aristide" weight="3624"/>
+  <event filename="Barack Obama" date="1657615366000" author="Crboyer" weight="3623"/>
+  <event filename="Barack Obama" date="1657747746000" author="Goszei" weight="3623"/>
+  <event filename="Barack Obama" date="1657977733000" author="48Pills" weight="3624"/>
+  <event filename="Barack Obama" date="1658060282000" author="Kobra98" weight="3626"/>
+  <event filename="Barack Obama" date="1658063721000" author="Kyleung05" weight="3626"/>
+  <event filename="Barack Obama" date="1658064445000" author="Drdpw" weight="3626"/>
+  <event filename="Barack Obama" date="1658064603000" author="Kyleung05" weight="3626"/>
+  <event filename="Barack Obama" date="1658064761000" author="Muboshgu" weight="3626"/>
+  <event filename="Barack Obama" date="1658268794000" author="GuardianH" weight="3626"/>
+  <event filename="Barack Obama" date="1658324168000" author="Kyleung05" weight="3626"/>
+  <event filename="Barack Obama" date="1658326663000" author="Wallnot" weight="3626"/>
+  <event filename="Barack Obama" date="1658443932000" author="Mupper-san" weight="3625"/>
+  <event filename="Barack Obama" date="1658445315000" author="GoodDay" weight="3626"/>
+  <event filename="Barack Obama" date="1658644765000" author="NimRenouf" weight="3626"/>
+  <event filename="Barack Obama" date="1659183099000" author="Gråbergs Gråa Sång" weight="3625"/>
+  <event filename="Barack Obama" date="1659185506000" author="DROSE78" weight="3626"/>
+  <event filename="Barack Obama" date="1659185861000" author="Muboshgu" weight="3625"/>
+  <event filename="Barack Obama" date="1659322706000" author="Davide King" weight="3625"/>
+  <event filename="Barack Obama" date="1659410980000" author="Sunnyboi18" weight="3629"/>
+  <event filename="Barack Obama" date="1659437445000" author="Agent123456789" weight="3629"/>
+  <event filename="Barack Obama" date="1659437666000" author="Agent123456789" weight="3627"/>
+  <event filename="Barack Obama" date="1659437884000" author="Agent123456789" weight="3627"/>
+  <event filename="Barack Obama" date="1659437959000" author="Agent123456789" weight="3627"/>
+  <event filename="Barack Obama" date="1659438076000" author="Agent123456789" weight="3626"/>
+  <event filename="Barack Obama" date="1659438253000" author="Agent123456789" weight="3626"/>
+  <event filename="Barack Obama" date="1659602190000" author="Gooseythegreat9" weight="3626"/>
+  <event filename="Barack Obama" date="1659602292000" author="Praxidicae" weight="3626"/>
+  <event filename="Barack Obama" date="1659806818000" author="Sunnyboi18" weight="3626"/>
+  <event filename="Barack Obama" date="1659843668000" author="Iamahumanborninearth" weight="3627"/>
+  <event filename="Barack Obama" date="1659843831000" author="Iamahumanborninearth" weight="3627"/>
+  <event filename="Barack Obama" date="1659844897000" author="Acroterion" weight="3626"/>
+  <event filename="Barack Obama" date="1659923469000" author="Agent123456789" weight="3627"/>
+  <event filename="Barack Obama" date="1659923832000" author="Agent123456789" weight="3626"/>
+  <event filename="Barack Obama" date="1659991641000" author="X-Editor" weight="3628"/>
+  <event filename="Barack Obama" date="1660005399000" author="SPECIFICO" weight="3626"/>
+  <event filename="Barack Obama" date="1660133221000" author="TomCat4680" weight="3627"/>
+  <event filename="Barack Obama" date="1660277630000" author="Kyleung05" weight="3626"/>
+  <event filename="Barack Obama" date="1660340579000" author="Enj481216" weight="3627"/>
+  <event filename="Barack Obama" date="1660352866000" author="Gtgamer79" weight="3627"/>
+  <event filename="Barack Obama" date="1660357399000" author="MrEricConnor" weight="3627"/>
+  <event filename="Barack Obama" date="1660489832000" author="Weaveravel" weight="3635"/>
+  <event filename="Barack Obama" date="1660490089000" author="Weaveravel" weight="3663"/>
+  <event filename="Barack Obama" date="1660490185000" author="Weaveravel" weight="3665"/>
+  <event filename="Barack Obama" date="1660491395000" author="AnomieBOT" weight="3665"/>
+  <event filename="Barack Obama" date="1660500712000" author="X-Editor" weight="3667"/>
+  <event filename="Barack Obama" date="1660508964000" author="Nableezy" weight="3669"/>
+  <event filename="Barack Obama" date="1660525829000" author="BrownHairedGirl" weight="3670"/>
+  <event filename="Barack Obama" date="1660531490000" author="Citation bot" weight="3673"/>
+  <event filename="Barack Obama" date="1660531685000" author="BrownHairedGirl" weight="3673"/>
+  <event filename="Barack Obama" date="1660542371000" author="SPECIFICO" weight="3673"/>
+  <event filename="Barack Obama" date="1660559947000" author="Citation bot" weight="3673"/>
+  <event filename="Barack Obama" date="1660750293000" author="Phillip Samuel" weight="3673"/>
+  <event filename="Barack Obama" date="1660821537000" author="Pomodecon" weight="3673"/>
+  <event filename="Barack Obama" date="1660821584000" author="Pomodecon" weight="3673"/>
+  <event filename="Barack Obama" date="1661709659000" author="Gls0214" weight="3673"/>
+  <event filename="Barack Obama" date="1661719689000" author="Ost316" weight="3673"/>
+  <event filename="Barack Obama" date="1662044024000" author="Kyleung05" weight="3672"/>
+  <event filename="Barack Obama" date="1662044119000" author="Kyleung05" weight="3671"/>
+  <event filename="Barack Obama" date="1662044263000" author="Kyleung05" weight="3670"/>
+  <event filename="Barack Obama" date="1662044463000" author="Kyleung05" weight="3669"/>
+  <event filename="Barack Obama" date="1662044555000" author="Kyleung05" weight="3672"/>
+  <event filename="Barack Obama" date="1662044656000" author="Kyleung05" weight="3673"/>
+  <event filename="Barack Obama" date="1662044734000" author="Kyleung05" weight="3673"/>
+  <event filename="Barack Obama" date="1662044847000" author="Kyleung05" weight="3672"/>
+  <event filename="Barack Obama" date="1662102331000" author="Kyleung05" weight="3671"/>
+  <event filename="Barack Obama" date="1662102509000" author="Kyleung05" weight="3672"/>
+  <event filename="Barack Obama" date="1662102535000" author="Kyleung05" weight="3671"/>
+  <event filename="Barack Obama" date="1662122564000" author="Wallnot" weight="3673"/>
+  <event filename="Barack Obama" date="1662134251000" author="Soumil1234" weight="3673"/>
+  <event filename="Barack Obama" date="1662153614000" author="FlyPea" weight="3673"/>
+  <event filename="Barack Obama" date="1662196828000" author="Therequiembellishere" weight="3672"/>
+  <event filename="Barack Obama" date="1662222800000" author="SibTower1987" weight="3673"/>
+  <event filename="Barack Obama" date="1662224813000" author="Kanyfug" weight="3677"/>
+  <event filename="Barack Obama" date="1662292568000" author="Sunshineisles2" weight="3677"/>
+  <event filename="Barack Obama" date="1662796119000" author="Kyleung05" weight="3678"/>
+  <event filename="Barack Obama" date="1662797204000" author="Wallnot" weight="3677"/>
+  <event filename="Barack Obama" date="1662923217000" author="The Truth Laboratory" weight="1"/>
+  <event filename="Barack Obama" date="1662923268000" author="Tristario" weight="3677"/>
+  <event filename="Barack Obama" date="1663068770000" author="ButterCashier" weight="3677"/>
+  <event filename="Barack Obama" date="1663250454000" author="Kyleung05" weight="3678"/>
+  <event filename="Barack Obama" date="1663646943000" author="Ubh" weight="3678"/>
+  <event filename="Barack Obama" date="1663771670000" author="Kyleung05" weight="3678"/>
+  <event filename="Barack Obama" date="1663771774000" author="Cullen328" weight="3678"/>
+  <event filename="Barack Obama" date="1663772089000" author="Kyleung05" weight="3678"/>
+  <event filename="Barack Obama" date="1663775462000" author="Wallnot" weight="3678"/>
+  <event filename="Barack Obama" date="1663845760000" author="BattyBot" weight="3677"/>
+  <event filename="Barack Obama" date="1663865946000" author="FunnyPedia95" weight="3678"/>
+  <event filename="Barack Obama" date="1663933548000" author="ValarianB" weight="3677"/>
+  <event filename="Barack Obama" date="1664041610000" author="Valkrie11" weight="3716"/>
+  <event filename="Barack Obama" date="1664041988000" author="Muboshgu" weight="3677"/>
+  <event filename="Barack Obama" date="1664105076000" author="White whirlwind" weight="3677"/>
+  <event filename="Barack Obama" date="1664293647000" author="Elijahr2411" weight="3677"/>
+  <event filename="Barack Obama" date="1664300867000" author="AnomieBOT" weight="3678"/>
+  <event filename="Barack Obama" date="1664332036000" author="M.boli" weight="3677"/>
+  <event filename="Barack Obama" date="1664381035000" author="XTheBedrockX" weight="3647"/>
+  <event filename="Barack Obama" date="1664384694000" author="XTheBedrockX" weight="3635"/>
+  <event filename="Barack Obama" date="1664422797000" author="M.boli" weight="3635"/>
+  <event filename="Barack Obama" date="1664474263000" author="XTheBedrockX" weight="3635"/>
+  <event filename="Barack Obama" date="1664550689000" author="AirFate" weight="3628"/>
+  <event filename="Barack Obama" date="1664550721000" author="LilianaUwU" weight="3635"/>
+  <event filename="Barack Obama" date="1664550843000" author="AirFate" weight="3628"/>
+  <event filename="Barack Obama" date="1664550854000" author="LilianaUwU" weight="3635"/>
+  <event filename="Barack Obama" date="1664683665000" author="Gråbergs Gråa Sång" weight="3635"/>
+  <event filename="Barack Obama" date="1664779031000" author="Wikinerd881" weight="3635"/>
+  <event filename="Barack Obama" date="1664842156000" author="Yankees999" weight="3636"/>
+  <event filename="Barack Obama" date="1664845763000" author="Gråbergs Gråa Sång" weight="3635"/>
+  <event filename="Barack Obama" date="1664888189000" author="Politicsfan4" weight="3635"/>
+  <event filename="Barack Obama" date="1664888407000" author="XTheBedrockX" weight="3640"/>
+  <event filename="Barack Obama" date="1664891195000" author="XTheBedrockX" weight="3642"/>
+  <event filename="Barack Obama" date="1664891687000" author="XTheBedrockX" weight="3642"/>
+  <event filename="Barack Obama" date="1664891883000" author="XTheBedrockX" weight="3642"/>
+  <event filename="Barack Obama" date="1664916638000" author="XTheBedrockX" weight="3636"/>
+  <event filename="Barack Obama" date="1664919336000" author="XTheBedrockX" weight="3653"/>
+  <event filename="Barack Obama" date="1664922702000" author="XTheBedrockX" weight="3665"/>
+  <event filename="Barack Obama" date="1664965354000" author="XTheBedrockX" weight="3665"/>
+  <event filename="Barack Obama" date="1664986267000" author="Sierra1000" weight="3667"/>
+  <event filename="Barack Obama" date="1664994884000" author="XTheBedrockX" weight="3667"/>
+  <event filename="Barack Obama" date="1665059658000" author="Dicklyon" weight="3667"/>
+  <event filename="Barack Obama" date="1665060454000" author="Kyleung05" weight="3666"/>
+  <event filename="Barack Obama" date="1665060881000" author="Kingen Erik" weight="3667"/>
+  <event filename="Barack Obama" date="1665060992000" author="Kingen Erik" weight="3667"/>
+  <event filename="Barack Obama" date="1665086727000" author="InternetArchiveBot" weight="3671"/>
+  <event filename="Barack Obama" date="1665103247000" author="Citation bot" weight="3672"/>
+  <event filename="Barack Obama" date="1665115610000" author="Ganesha811" weight="3676"/>
+  <event filename="Barack Obama" date="1665133262000" author="Ganesha811" weight="3676"/>
+  <event filename="Barack Obama" date="1665158943000" author="XTheBedrockX" weight="3676"/>
+  <event filename="Barack Obama" date="1665176770000" author="Headbomb" weight="3676"/>
+  <event filename="Barack Obama" date="1665260845000" author="Citation bot" weight="3678"/>
+  <event filename="Barack Obama" date="1665387826000" author="Gråbergs Gråa Sång" weight="3683"/>
+  <event filename="Barack Obama" date="1665461724000" author="Gråbergs Gråa Sång" weight="3687"/>
+  <event filename="Barack Obama" date="1665462049000" author="Gråbergs Gråa Sång" weight="3691"/>
+  <event filename="Barack Obama" date="1665587390000" author="VQuakr" weight="3678"/>
+  <event filename="Barack Obama" date="1665606630000" author="Horse Eye's Back" weight="3667"/>
+  <event filename="Barack Obama" date="1665606776000" author="Horse Eye's Back" weight="3631"/>
+  <event filename="Barack Obama" date="1665647154000" author="XTheBedrockX" weight="3639"/>
+  <event filename="Barack Obama" date="1665711624000" author="XTheBedrockX" weight="3639"/>
+  <event filename="Barack Obama" date="1665844061000" author="XTheBedrockX" weight="3639"/>
+  <event filename="Barack Obama" date="1666687174000" author="XTheBedrockX" weight="3644"/>
+  <event filename="Barack Obama" date="1666812530000" author="Ser Amantio di Nicolao"
+    weight="3644"/>
+  <event filename="Barack Obama" date="1667506398000" author="X-Editor" weight="3650"/>
+  <event filename="Barack Obama" date="1667506944000" author="X-Editor" weight="3656"/>
+  <event filename="Barack Obama" date="1667576496000" author="Legotwin" weight="3679"/>
+  <event filename="Barack Obama" date="1667577362000" author="Neveselbert (mobile)" weight="3678"/>
+  <event filename="Barack Obama" date="1667577466000" author="Neveselbert (mobile)" weight="3678"/>
+  <event filename="Barack Obama" date="1667577668000" author="Neveselbert (mobile)" weight="3678"/>
+  <event filename="Barack Obama" date="1667646047000" author="Proscribe" weight="3679"/>
+  <event filename="Barack Obama" date="1667662737000" author="Pablo the Helper" weight="3679"/>
+  <event filename="Barack Obama" date="1667706145000" author="JeffLynne1977" weight="3689"/>
+  <event filename="Barack Obama" date="1667712939000" author="JeffLynne1977" weight="3691"/>
+  <event filename="Barack Obama" date="1667718110000" author="JeffLynne1977" weight="3672"/>
+  <event filename="Barack Obama" date="1667718421000" author="JeffLynne1977" weight="3672"/>
+  <event filename="Barack Obama" date="1667718731000" author="JeffLynne1977" weight="3672"/>
+  <event filename="Barack Obama" date="1667718816000" author="JeffLynne1977" weight="3672"/>
+  <event filename="Barack Obama" date="1667719465000" author="JeffLynne1977" weight="3673"/>
+  <event filename="Barack Obama" date="1667719739000" author="JeffLynne1977" weight="3673"/>
+  <event filename="Barack Obama" date="1667732219000" author="Gråbergs Gråa Sång" weight="3670"/>
+  <event filename="Barack Obama" date="1667733667000" author="JeffLynne1977" weight="3666"/>
+  <event filename="Barack Obama" date="1667733916000" author="JeffLynne1977" weight="3666"/>
+  <event filename="Barack Obama" date="1667735921000" author="JeffLynne1977" weight="3666"/>
+  <event filename="Barack Obama" date="1667736186000" author="Surtsicna" weight="3666"/>
+  <event filename="Barack Obama" date="1667892394000" author="DFlhb" weight="3668"/>
+  <event filename="Barack Obama" date="1667894509000" author="M.boli" weight="3665"/>
+  <event filename="Barack Obama" date="1667911693000" author="Tpcio" weight="3665"/>
+  <event filename="Barack Obama" date="1667911723000" author="Discospinster" weight="3665"/>
+  <event filename="Barack Obama" date="1667918128000" author="Packer1028" weight="3666"/>
+  <event filename="Barack Obama" date="1668169818000" author="JeffLynne1977" weight="3667"/>
+  <event filename="Barack Obama" date="1668169889000" author="JeffLynne1977" weight="3662"/>
+  <event filename="Barack Obama" date="1668183333000" author="M.boli" weight="3673"/>
+  <event filename="Barack Obama" date="1668183696000" author="M.boli" weight="3674"/>
+  <event filename="Barack Obama" date="1668192358000" author="Tamzin" weight="3675"/>
+  <event filename="Barack Obama" date="1668311670000" author="AlexBern73" weight="3675"/>
+  <event filename="Barack Obama" date="1668401766000" author="NebulaX64" weight="3675"/>
+  <event filename="Barack Obama" date="1668401870000" author="Vanjagenije" weight="3675"/>
+  <event filename="Barack Obama" date="1668549034000" author="Citation bot" weight="3675"/>
+  <event filename="Barack Obama" date="1668620847000" author="George6996" weight="3675"/>
+  <event filename="Barack Obama" date="1668645013000" author="JeffLynne1977" weight="3675"/>
+  <event filename="Barack Obama" date="1668670031000" author="Thrakkx" weight="3675"/>
+  <event filename="Barack Obama" date="1668849512000" author="JeffLynne1977" weight="3676"/>
+  <event filename="Barack Obama" date="1668909852000" author="HighlyLogicalVulcan" weight="3677"/>
+  <event filename="Barack Obama" date="1668909910000" author="HighlyLogicalVulcan" weight="3677"/>
+  <event filename="Barack Obama" date="1668910281000" author="Gråbergs Gråa Sång" weight="3676"/>
+  <event filename="Barack Obama" date="1668926489000" author="Roost" weight="3679"/>
+  <event filename="Barack Obama" date="1668936775000" author="M.boli" weight="3681"/>
+  <event filename="Barack Obama" date="1669107890000" author="HighlyLogicalVulcan" weight="3681"/>
+  <event filename="Barack Obama" date="1669258626000" author="Aidan9382" weight="3681"/>
+  <event filename="Barack Obama" date="1669373015000" author="HighlyLogicalVulcan" weight="3681"/>
+  <event filename="Barack Obama" date="1669443940000" author="HighlyLogicalVulcan" weight="3681"/>
+  <event filename="Barack Obama" date="1669536494000" author="Engr. Smitty" weight="3680"/>
+  <event filename="Barack Obama" date="1669561028000" author="Marcocapelle" weight="3678"/>
+  <event filename="Barack Obama" date="1669587811000" author="Citation bot" weight="3678"/>
+  <event filename="Barack Obama" date="1669984705000" author="GreenCows" weight="3682"/>
+  <event filename="Barack Obama" date="1670177840000" author="Cheesecakep" weight="3682"/>
+  <event filename="Barack Obama" date="1670177930000" author="ClueBot NG" weight="3682"/>
+  <event filename="Barack Obama" date="1670186303000" author="Iamreallygoodatcheckers"
+    weight="3674"/>
+  <event filename="Barack Obama" date="1670261166000" author="Kaltenmeyer" weight="3674"/>
+  <event filename="Barack Obama" date="1670299534000" author="Oculi" weight="3674"/>
+  <event filename="Barack Obama" date="1670386416000" author="Raghavsharma191" weight="3674"/>
+  <event filename="Barack Obama" date="1670386733000" author="Zzuuzz" weight="3674"/>
+  <event filename="Barack Obama" date="1670515973000" author="Mdaniels5757" weight="3673"/>
+  <event filename="Barack Obama" date="1670549519000" author="Gudedits" weight="3673"/>
+  <event filename="Barack Obama" date="1670783562000" author="Ppt91" weight="3673"/>
+  <event filename="Barack Obama" date="1670847713000" author="Kaltenmeyer" weight="3671"/>
+  <event filename="Barack Obama" date="1671039023000" author="Kaltenmeyer" weight="3671"/>
+  <event filename="Barack Obama" date="1671089487000" author="Maxeto0910" weight="3671"/>
+  <event filename="Barack Obama" date="1671089551000" author="Maxeto0910" weight="3671"/>
+  <event filename="Barack Obama" date="1671089672000" author="Maxeto0910" weight="3671"/>
+  <event filename="Barack Obama" date="1671089729000" author="Maxeto0910" weight="3671"/>
+  <event filename="Barack Obama" date="1671089801000" author="Maxeto0910" weight="3671"/>
+  <event filename="Barack Obama" date="1671130193000" author="Plumber" weight="3670"/>
+  <event filename="Barack Obama" date="1671462543000" author="DFlhb" weight="3670"/>
+  <event filename="Barack Obama" date="1671468210000" author="DFlhb" weight="3659"/>
+  <event filename="Barack Obama" date="1671469414000" author="DFlhb" weight="3658"/>
+  <event filename="Barack Obama" date="1671469742000" author="DFlhb" weight="3656"/>
+  <event filename="Barack Obama" date="1671470695000" author="DFlhb" weight="3637"/>
+  <event filename="Barack Obama" date="1671470891000" author="DFlhb" weight="3632"/>
+  <event filename="Barack Obama" date="1671471074000" author="DFlhb" weight="3633"/>
+  <event filename="Barack Obama" date="1671471172000" author="DFlhb" weight="3630"/>
+  <event filename="Barack Obama" date="1671471428000" author="DFlhb" weight="3626"/>
+  <event filename="Barack Obama" date="1671471622000" author="DFlhb" weight="3626"/>
+  <event filename="Barack Obama" date="1671472128000" author="DFlhb" weight="3627"/>
+  <event filename="Barack Obama" date="1671472563000" author="DFlhb" weight="3624"/>
+  <event filename="Barack Obama" date="1671473087000" author="DFlhb" weight="3612"/>
+  <event filename="Barack Obama" date="1671474973000" author="DFlhb" weight="3554"/>
+  <event filename="Barack Obama" date="1671475139000" author="DFlhb" weight="3556"/>
+  <event filename="Barack Obama" date="1671476447000" author="AnomieBOT" weight="3556"/>
+  <event filename="Barack Obama" date="1671806892000" author="Ppt91" weight="3561"/>
+  <event filename="Barack Obama" date="1671807182000" author="Ppt91" weight="3561"/>
+  <event filename="Barack Obama" date="1671890937000" author="HiLo48" weight="3561"/>
+  <event filename="Barack Obama" date="1671935459000" author="DocWatson42" weight="3561"/>
+  <event filename="Barack Obama" date="1671945720000" author="Achmad Rachmani" weight="3563"/>
+  <event filename="Barack Obama" date="1671947472000" author="Achmad Rachmani" weight="3565"/>
+  <event filename="Barack Obama" date="1671947771000" author="Achmad Rachmani" weight="3568"/>
+  <event filename="Barack Obama" date="1671947879000" author="Achmad Rachmani" weight="3570"/>
+  <event filename="Barack Obama" date="1671968827000" author="Perlama8906" weight="3577"/>
+  <event filename="Barack Obama" date="1671969003000" author="Perlama8906" weight="3577"/>
+  <event filename="Barack Obama" date="1671969054000" author="DeCausa" weight="3570"/>
+  <event filename="Barack Obama" date="1671969159000" author="Perlama8906" weight="3577"/>
+  <event filename="Barack Obama" date="1671969245000" author="DeCausa" weight="3570"/>
+  <event filename="Barack Obama" date="1671969504000" author="Perlama8906" weight="3570"/>
+  <event filename="Barack Obama" date="1671969635000" author="Perlama8906" weight="3570"/>
+  <event filename="Barack Obama" date="1671969735000" author="Seckends" weight="3570"/>
+  <event filename="Barack Obama" date="1671990835000" author="WildComet" weight="3570"/>
+  <event filename="Barack Obama" date="1672062146000" author="Ppt91" weight="3570"/>
+  <event filename="Barack Obama" date="1672146496000" author="Toluwan" weight="3570"/>
+  <event filename="Barack Obama" date="1672147770000" author="Gråbergs Gråa Sång" weight="3570"/>
+  <event filename="Barack Obama" date="1672203596000" author="RetryingAllAgain" weight="3570"/>
+  <event filename="Barack Obama" date="1672214315000" author="Horse Eye's Back" weight="3570"/>
+  <event filename="Barack Obama" date="1672576604000" author="XTheBedrockX" weight="3570"/>
+  <event filename="Barack Obama" date="1673019992000" author="JJMC89 bot III" weight="3570"/>
+  <event filename="Barack Obama" date="1673301189000" author="Cfls" weight="3570"/>
+  <event filename="Barack Obama" date="1673302616000" author="Wikinerd881" weight="3570"/>
+  <event filename="Barack Obama" date="1673339376000" author="Cfls" weight="3570"/>
+  <event filename="Barack Obama" date="1673620789000" author="WereSpielChequers" weight="3570"/>
+  <event filename="Barack Obama" date="1673739154000" author="Thrakkx" weight="3569"/>
+  <event filename="Barack Obama" date="1673818874000" author="Wikinerd881" weight="3569"/>
+  <event filename="Barack Obama" date="1673967259000" author="Politicsfan4" weight="3569"/>
+  <event filename="Barack Obama" date="1674364126000" author="Interstellarity" weight="3569"/>
+  <event filename="Barack Obama" date="1674373331000" author="Bob K31416" weight="3569"/>
+  <event filename="Barack Obama" date="1674554117000" author="FunnyPedia95" weight="3569"/>
+  <event filename="Barack Obama" date="1674751852000" author="Eejit43" weight="3569"/>
+  <event filename="Barack Obama" date="1674760740000" author="Thrakkx" weight="3569"/>
+  <event filename="Barack Obama" date="1674789736000" author="RayAdvait" weight="3569"/>
+  <event filename="Barack Obama" date="1674901776000" author="OAbot" weight="3569"/>
+  <event filename="Barack Obama" date="1674957307000" author="SeeAlsoPolice" weight="3569"/>
+  <event filename="Barack Obama" date="1675178988000" author="WikiCleanerMan" weight="3569"/>
+  <event filename="Barack Obama" date="1675226132000" author="DocWatson42" weight="3569"/>
+  <event filename="Barack Obama" date="1675315605000" author="JoanTEditor" weight="3582"/>
+  <event filename="Barack Obama" date="1675315937000" author="JoanTEditor" weight="3581"/>
+  <event filename="Barack Obama" date="1675316235000" author="Bohemian Baltimore" weight="3582"/>
+  <event filename="Barack Obama" date="1675434269000" author="Indigenous girl" weight="3581"/>
+  <event filename="Barack Obama" date="1675613579000" author="Elephantranges" weight="3581"/>
+  <event filename="Barack Obama" date="1675643164000" author="Mr.govjames" weight="3581"/>
+  <event filename="Barack Obama" date="1675644753000" author="Mr.govjames" weight="3581"/>
+  <event filename="Barack Obama" date="1675648825000" author="KlayCax" weight="3579"/>
+  <event filename="Barack Obama" date="1675649546000" author="KlayCax" weight="3485"/>
+  <event filename="Barack Obama" date="1675682439000" author="Baller McGee" weight="3486"/>
+  <event filename="Barack Obama" date="1675682853000" author="Objective3000" weight="3485"/>
+  <event filename="Barack Obama" date="1675856027000" author="Illuminated Inquirer" weight="3485"/>
+  <event filename="Barack Obama" date="1676156473000" author="Democrat10101" weight="3485"/>
+  <event filename="Barack Obama" date="1676165186000" author="HiLo48" weight="3485"/>
+  <event filename="Barack Obama" date="1676205470000" author="LosPajaros" weight="3487"/>
+  <event filename="Barack Obama" date="1676206815000" author="LosPajaros" weight="3487"/>
+  <event filename="Barack Obama" date="1676207074000" author="Democrat10101" weight="3489"/>
+  <event filename="Barack Obama" date="1676207143000" author="Democrat10101" weight="3490"/>
+  <event filename="Barack Obama" date="1676216776000" author="HiLo48" weight="3488"/>
+  <event filename="Barack Obama" date="1676219676000" author="Democrat10101" weight="3489"/>
+  <event filename="Barack Obama" date="1676222532000" author="HiLo48" weight="3488"/>
+  <event filename="Barack Obama" date="1676240569000" author="Democrat10101" weight="3489"/>
+  <event filename="Barack Obama" date="1676609600000" author="Citation bot" weight="3492"/>
+  <event filename="Barack Obama" date="1676638103000" author="Sunshineisles2" weight="3492"/>
+  <event filename="Barack Obama" date="1676834251000" author="Goszei" weight="3492"/>
+  <event filename="Barack Obama" date="1676891911000" author="DueKinkajou4384" weight="3492"/>
+  <event filename="Barack Obama" date="1676980058000" author="Ryme071" weight="3492"/>
+  <event filename="Barack Obama" date="1677064217000" author="Fantboy3" weight="3492"/>
+  <event filename="Barack Obama" date="1677162418000" author="Sunnyboi18" weight="3492"/>
+  <event filename="Barack Obama" date="1677209775000" author="Cewbot" weight="3492"/>
+  <event filename="Barack Obama" date="1677337301000" author="LosPajaros" weight="3492"/>
+  <event filename="Barack Obama" date="1677364496000" author="Wow" weight="3477"/>
+  <event filename="Barack Obama" date="1677365287000" author="Wow" weight="3477"/>
+  <event filename="Barack Obama" date="1677365637000" author="Wow" weight="3461"/>
+  <event filename="Barack Obama" date="1677365684000" author="Tvoz" weight="3476"/>
+  <event filename="Barack Obama" date="1677366045000" author="Wow" weight="3455"/>
+  <event filename="Barack Obama" date="1677366104000" author="Wow" weight="3453"/>
+  <event filename="Barack Obama" date="1677366142000" author="Wow" weight="3447"/>
+  <event filename="Barack Obama" date="1677367162000" author="Wow" weight="3437"/>
+  <event filename="Barack Obama" date="1677367459000" author="Wow" weight="3437"/>
+  <event filename="Barack Obama" date="1677367694000" author="Wow" weight="3437"/>
+  <event filename="Barack Obama" date="1677372982000" author="Wow" weight="3435"/>
+  <event filename="Barack Obama" date="1677373715000" author="Wow" weight="3435"/>
+  <event filename="Barack Obama" date="1677401712000" author="Davemck" weight="3435"/>
+  <event filename="Barack Obama" date="1677546946000" author="SibTower1987" weight="3435"/>
+  <event filename="Barack Obama" date="1677668242000" author="Pickle Mon" weight="3435"/>
+  <event filename="Barack Obama" date="1678044833000" author="Fatherride" weight="3436"/>
+  <event filename="Barack Obama" date="1678045011000" author="Muboshgu" weight="3435"/>
+  <event filename="Barack Obama" date="1678072718000" author="DFlhb" weight="3436"/>
+  <event filename="Barack Obama" date="1678076450000" author="DFlhb" weight="3441"/>
+  <event filename="Barack Obama" date="1678125797000" author="NORADSAKE19" weight="3441"/>
+  <event filename="Barack Obama" date="1678126494000" author="Arkon" weight="3441"/>
+  <event filename="Barack Obama" date="1678272739000" author="Dwo" weight="3440"/>
+  <event filename="Barack Obama" date="1678297049000" author="Mismak Abel" weight="3441"/>
+  <event filename="Barack Obama" date="1678297219000" author="Mismak Abel" weight="3441"/>
+  <event filename="Barack Obama" date="1678345981000" author="GeorgeV73GT" weight="3441"/>
+  <event filename="Barack Obama" date="1678439050000" author="Steel1943" weight="3441"/>
+  <event filename="Barack Obama" date="1678519110000" author="MarconiCheese" weight="3441"/>
+  <event filename="Barack Obama" date="1678614406000" author="MagicatthemovieS" weight="3440"/>
+  <event filename="Barack Obama" date="1678814991000" author="70P100" weight="3440"/>
+  <event filename="Barack Obama" date="1678815333000" author="Muboshgu" weight="3440"/>
+  <event filename="Barack Obama" date="1679063638000" author="Citation bot" weight="3440"/>
+  <event filename="Barack Obama" date="1679333613000" author="Ser Amantio di Nicolao"
+    weight="3440"/>
+  <event filename="Barack Obama" date="1679333655000" author="Ser Amantio di Nicolao"
+    weight="3440"/>
+  <event filename="Barack Obama" date="1679377715000" author="JackkBrown" weight="3440"/>
+  <event filename="Barack Obama" date="1679377842000" author="JackkBrown" weight="3440"/>
+  <event filename="Barack Obama" date="1679377980000" author="JackkBrown" weight="3440"/>
+  <event filename="Barack Obama" date="1679689473000" author="HistorianFromSyracuse" weight="3440"/>
+  <event filename="Barack Obama" date="1679966394000" author="Marginataen" weight="3440"/>
+  <event filename="Barack Obama" date="1680050215000" author="Dolphinize" weight="3457"/>
+  <event filename="Barack Obama" date="1680090128000" author="HeyElliott" weight="3457"/>
+  <event filename="Barack Obama" date="1680108267000" author="Nikkimaria" weight="3453"/>
+  <event filename="Barack Obama" date="1680122219000" author="FictiousLibrarian" weight="3453"/>
+  <event filename="Barack Obama" date="1680157132000" author="WatkynBassett" weight="3453"/>
+  <event filename="Barack Obama" date="1680419629000" author="Bhkkbey250" weight="3456"/>
+  <event filename="Barack Obama" date="1680460400000" author="GreenFrogsGoRibbit" weight="3456"/>
+  <event filename="Barack Obama" date="1680476477000" author="KlayCax" weight="3453"/>
+  <event filename="Barack Obama" date="1680499387000" author="GreenC bot" weight="3453"/>
+  <event filename="Barack Obama" date="1680508813000" author="GuardianH" weight="3453"/>
+  <event filename="Barack Obama" date="1680532335000" author="GreenFrogsGoRibbit" weight="3453"/>
+  <event filename="Barack Obama" date="1680695038000" author="Handoto" weight="3453"/>
+  <event filename="Barack Obama" date="1680974330000" author="Korg82Champ74" weight="3453"/>
+  <event filename="Barack Obama" date="1680974490000" author="Korg82Champ74" weight="3452"/>
+  <event filename="Barack Obama" date="1680974560000" author="Acroterion" weight="3453"/>
+  <event filename="Barack Obama" date="1680976447000" author="Korg82Champ74" weight="3452"/>
+  <event filename="Barack Obama" date="1680976470000" author="Acroterion" weight="3453"/>
+  <event filename="Barack Obama" date="1681082135000" author="Tinmop84" weight="3452"/>
+  <event filename="Barack Obama" date="1681095724000" author="Gråbergs Gråa Sång" weight="3453"/>
+  <event filename="Barack Obama" date="1681670204000" author="Explicit" weight="3452"/>
+  <event filename="Barack Obama" date="1681780469000" author="Barack obamna lover" weight="3453"/>
+  <event filename="Barack Obama" date="1681780767000" author="Favonian" weight="3452"/>
+  <event filename="Barack Obama" date="1681800958000" author="Adamopoulos" weight="3453"/>
+  <event filename="Barack Obama" date="1681902566000" author="GuardianH" weight="3453"/>
+  <event filename="Barack Obama" date="1681976567000" author="Wikinerd881" weight="3453"/>
 </file_events>

@@ -1,22 +1,4 @@
-/**
- * Copyright 2008 code_swarm project team
- *
- * This file is part of code_swarm.
- *
- * code_swarm is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * code_swarm is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with code_swarm.  If not, see <http://www.gnu.org/licenses/>.
- */
-
+import java.util.PriorityQueue;
 import java.util.Properties;
 import java.util.LinkedList;
 import javax.vecmath.Vector2f;
@@ -72,7 +54,7 @@ public interface PhysicsEngine
    *
    * @Note Standard physics is "Position Variation = Speed x Duration" with a convention of "Duration=1" between to frames
    */
-  public LinkedList<code_swarm.FileNode> onRelaxNodes(LinkedList<code_swarm.FileNode> fNodes);
+  public LinkedList<code_swarm.WikiNode> onRelaxNodes(LinkedList<code_swarm.WikiNode> fNodes);
   
   /**
    * Method that allows Physics Engine to modify Speed / Position during the relax phase.
@@ -84,7 +66,7 @@ public interface PhysicsEngine
    * 
    * @Note Standard physics is "Position Variation = Speed x Duration" with a convention of "Duration=1" between to frames
    */
-  public LinkedList<code_swarm.PersonNode> onRelaxPeople(LinkedList<code_swarm.PersonNode> pNodes);
+  public PriorityQueue<code_swarm.PersonNode> onRelaxPeople(PriorityQueue<code_swarm.PersonNode> pNodes);
   
   /**
    * Method that allows Physics Engine to modify Speed / Position during the update phase.
@@ -108,7 +90,7 @@ public interface PhysicsEngine
    * 
    * @Note Standard physics is "Position Variation = Speed x Duration" with a convention of "Duration=1" between to frames
    */
-  public LinkedList<code_swarm.FileNode> onUpdateNodes(LinkedList<code_swarm.FileNode> fNodes);
+  public LinkedList<code_swarm.WikiNode> onUpdateNodes(LinkedList<code_swarm.WikiNode> fNodes);
   
   /**
    * Method that allows Physics Engine to modify Speed / Position during the update phase.
@@ -120,7 +102,7 @@ public interface PhysicsEngine
    * 
    * @Note Standard physics is "Position Variation = Speed x Duration" with a convention of "Duration=1" between to frames
    */
-  public LinkedList<code_swarm.PersonNode> onUpdatePeople(LinkedList<code_swarm.PersonNode> pNodes);
+  public PriorityQueue<code_swarm.PersonNode> onUpdatePeople(PriorityQueue<code_swarm.PersonNode> pNodes);
   
   /**
    * 

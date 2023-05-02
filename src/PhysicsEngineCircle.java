@@ -1,3 +1,4 @@
+//import code_swarm.WikiNode;
 import java.util.PriorityQueue;
 import java.util.Properties;
 import java.util.LinkedList;
@@ -10,7 +11,7 @@ import javax.vecmath.Vector2f;
  *
  * @see PhysicsEngine Physical Engine Interface
  */
-public class PhysicsEngineWiki implements PhysicsEngine {
+public class PhysicsEngineCircle implements PhysicsEngine {
 
   private Properties cfg;
 
@@ -68,7 +69,7 @@ public class PhysicsEngineWiki implements PhysicsEngine {
     tforce.sub(edge.nodeTo.mPosition, edge.nodeFrom.mPosition);
     distance = tforce.length();
     // absolute value of weight
-    int absWeight = Math.abs(edge.weight);
+    int absWeight = Math.abs(edge.nodeTo.changeWords);
     // set the vector tforce length to weight
     tforce.scale(absWeight / distance);
     if (distance > 0) {
@@ -84,7 +85,12 @@ public class PhysicsEngineWiki implements PhysicsEngine {
       force.set(tforce);
     }
 
-    return force;
+    // 90 degrees rotate
+    float rotatedX = -force.y;
+    float rotatedY = force.x;
+    Vector2f rotatedVector = new Vector2f(rotatedX, rotatedY);
+
+    return rotatedVector;
   }
 
   /**
@@ -150,28 +156,57 @@ public class PhysicsEngineWiki implements PhysicsEngine {
   private void applySpeedToPosition(code_swarm.Node node) {
     float div;
     // This block enforces a maximum absolute velocity.
+//    if (node.mSpeed.length() > node.maxSpeed) {
+//      Vector2f mag = new Vector2f(node.mSpeed.x / node.maxSpeed, node.mSpeed.y / node.maxSpeed);
+//      div = mag.length();
+//      node.mSpeed.scale(1 / div);
+//    }
+    float actualSpeed = node.mSpeed.length();
+    float adjustedSpeed = mapToSpeed(actualSpeed);
+    node.mSpeed.scale(adjustedSpeed / actualSpeed);
+    // This block convert Speed to Position
+    node.mPosition.add(node.mSpeed);
+//    System.out.println("adjusted speed is " + node.mSpeed.length());
+
+    // Apply no drag
+//    node.mSpeed.scale(SPEED_TO_POSITION_MULTIPLIER);
+  }
+
+  private void applySpeedToWikiPosition(code_swarm.Node node) {
+    float div;
+    // This block enforces a maximum absolute velocity.
     if (node.mSpeed.length() > node.maxSpeed) {
       Vector2f mag = new Vector2f(node.mSpeed.x / node.maxSpeed, node.mSpeed.y / node.maxSpeed);
       div = mag.length();
       node.mSpeed.scale(1 / div);
     }
-
+//    float actualSpeed = node.mSpeed.length();
+//    float adjustedSpeed = mapToSpeed(actualSpeed);
+//    node.mSpeed.scale(adjustedSpeed / actualSpeed);
     // This block convert Speed to Position
     node.mPosition.add(node.mSpeed);
 
-    // Apply drag (reduce Speed for next frame calculation)
-    node.mSpeed.scale(SPEED_TO_POSITION_MULTIPLIER);
+    // Apply no drag
+//    node.mSpeed.scale(SPEED_TO_POSITION_MULTIPLIER);
   }
 
   /**
-   *  Do nothing.
+   * map an integer within 10000 to a size of 0-20
+   * @param x
+   * @return new speed
    */
+  public float mapToSpeed(float x) {
+    if (x > 10000)
+      return 20;
+    else if (x < 0)
+      return 0;
+    return (float) (x * 20 / 10000);
+  }
+
+
   public void initializeFrame() {
   }
 
-  /**
-   *  Do nothing.
-   */
   public void finalizeFrame() {
   }
 
@@ -200,6 +235,7 @@ public class PhysicsEngineWiki implements PhysicsEngine {
       applyForceToSpeed(edge.nodeFrom, force);
 //      System.out.println(
 //          "From " + edge.nodeFrom.name + " to " + edge.nodeTo.name + " force is " + force.length());
+//      System.out.println(edge.nodeTo.name + " speed is " + edge.nodeTo.mSpeed.length());
     }
     return edges;
   }
@@ -256,7 +292,6 @@ public class PhysicsEngineWiki implements PhysicsEngine {
       // Apply repulsive force from other people to this Node
       applyForceToSpeed(pNode, forceSummation);
 
-      pNode.mSpeed.scale(1.0f / 12);
     }
     return pNodes;
   }
@@ -274,9 +309,7 @@ public class PhysicsEngineWiki implements PhysicsEngine {
 
     while (!edges.isEmpty()) {
       code_swarm.Edge edge = edges.removeFirst();
-      if (edge.decay()) {
-        stillLiving.addLast(edge);
-      }
+      stillLiving.addLast(edge);
     }
     return stillLiving;
   }
@@ -294,16 +327,13 @@ public class PhysicsEngineWiki implements PhysicsEngine {
     while (!fNodes.isEmpty()) {
       code_swarm.WikiNode fNode = fNodes.removeFirst();
       // Apply Speed to Position on nodes
-      applySpeedToPosition(fNode);
+      applySpeedToWikiPosition(fNode);
 
       // ensure coherent resulting position
       fNode.mPosition.set(constrain(fNode.mPosition.x, 0.0f, (float) code_swarm.width),
           constrain(fNode.mPosition.y, 0.0f, (float) code_swarm.height));
 
-      // shortening life
-      if (fNode.decay()) {
-        stillLiving.addLast(fNode);
-      }
+      stillLiving.addLast(fNode);
     }
     return stillLiving;
   }
@@ -329,9 +359,10 @@ public class PhysicsEngineWiki implements PhysicsEngine {
           constrain(pNode.mPosition.y, 0.0f, (float) code_swarm.height));
 
       // shortening life
-      if (pNode.decay()) {
-        stillLiving.offer(pNode);
-      }
+//      if (pNode.decay()) {
+//        stillLiving.addLast(pNode);
+//      }
+      stillLiving.offer(pNode);
     }
     return stillLiving;
   }

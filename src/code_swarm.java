@@ -54,14 +54,6 @@ public class code_swarm extends PApplet {
   protected Map<Pair<WikiNode, PersonNode>, Edge> edges;
   protected Map<String, PersonNode> people;
 
-  // Liveness cache
-//  PriorityQueue<PersonNode> livingPeople = new PriorityQueue<PersonNode>(new Comparator<PersonNode>() {
-//    @Override
-//    public int compare(PersonNode p1, PersonNode p2) {
-//      return p2.getChangeWords() - p1.getChangeWords(); // 按照changeWords从大到小排序
-//    }
-//  });
-
   PriorityQueue<PersonNode> livingPeople = new PriorityQueue<PersonNode>(500, new Comparator<PersonNode>() {
     public int compare(PersonNode p1, PersonNode p2) {
       return p2.getChangeWords() - p1.getChangeWords();
@@ -892,16 +884,17 @@ public class code_swarm extends PApplet {
    *  Take screenshot
    */
   public void dumpFrame() {
-    if (frameCount < maxFramesSaved) {
-      final String outputFileName = insertFrame(SCREENSHOT_FILE);
+    if (frameCount < this.maxFramesSaved) {
+      final File outputFileName = new File(SCREENSHOT_FILE);
       final PImage image = get();
+      outputFileName.getParentFile().mkdirs();
 
       backgroundExecutor.execute(new Runnable() {
         public void run() {
-          image.save(new File(outputFileName).getAbsolutePath());
+          image.save(outputFileName.getAbsolutePath());
         }
       });
-      //  saveFrame(SCREENSHOT_FILE);
+      saveFrame(SCREENSHOT_FILE);
     }
   }
 

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wiki Visualization</title>
+</head>
+<body>
+<div style="text-align:center">
+  <img id="video-frame" src="frames_obama/code_swarm-00001.png" width="789" height="616">
+</div>
+<div style="text-align:center">
+  <button id="play-pause-button">Play</button>
+  <input type="range" id="progress-bar" value="0" min="0" max="100">
+</div>
+<div style="text-align:center">
+  <input type="number" id="interval-input" value="50">
+  <button id="update-interval-button">update interval</button>
+  <span id="update-message" style="display:none;"></span>
+</div>
+<script src="animation.js"></script>
+</body>
+</html>
